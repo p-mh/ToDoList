@@ -1,0 +1,7 @@
+.listItem {
+  margin: 10px 0;
+}
+
+.listItem .isCheck {
+  text-decoration: line-through;
+}

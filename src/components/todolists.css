@@ -1,0 +1,36 @@
+.todolists {
+  padding: 15px;
+}
+
+.todolists h1 {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.todolists .buttonPlace {
+  flex: 1 1 350px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px #cccccc38;
+  background-color: #fff;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolists .buttonPlace button.addList {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: #b95e6e;
+  box-shadow: 0 0 5px 5px #cccccc38;
+  margin-left: 20px;
+}
+
+.todolists .lists {
+  display: flex;
+  flex-wrap: wrap;
+}

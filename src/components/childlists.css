@@ -1,0 +1,52 @@
+.childList {
+  flex: 1 1 350px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px #cccccc38;
+  background-color: #fff;
+}
+
+.childList .headerList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.childList button.delete {
+  font-size: 1.2rem;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.childList input.listName {
+  border: none;
+  font-size: 1.5rem;
+  width: 100%;
+  font-weight: bold;
+}
+
+.childList input.listName:focus {
+  outline: none;
+}
+
+.childList .inputBloc {
+  display: flex;
+}
+
+.childList input.addItem {
+  margin: 20px 0;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  padding: 5px;
+  width: 100%;
+}
+
+.childList input.addItem:hover {
+  border: 2px solid #b95e6e;
+}
+
+.childList input.addItem:focus {
+  outline: none;
+  border: 2px solid #b95e6e;
+}
